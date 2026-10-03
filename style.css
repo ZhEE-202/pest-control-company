@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lora", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    display: flex;
+    gap: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+}
+.logo {
+    width: 20vw;
+    /* border: solid; */
+}
+.logo img{
+    /* border: solid; */
+    width: 40%;
+}
+.links ul{
+    display: flex;
+    gap: 30px;
+}
+.links ul li{
+    list-style-type: none;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.booking{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.button{
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+    padding: 9px 30px;
+    border-radius: 20px;
+}
+.second-section{
+    background: linear-gradient(to right, #0b3d2e, #0a2540);
+    color: #fff;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    margin: 30px 0px;
+    padding: 20px 0px;
+}
+.hero-text .first-text{
+    font-size: 50px;
+    font-family: "Lato", sans-serif;
+  /* font-weight: 700; */
+  /* font-style: normal; */
+}
+.hero-text .title{
+    padding: 5px 0px 30px 0px;
+}
+/* .contact{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+} */
+.hero-text .contact .button{
+    background-color: #022a68;
+}
+.hero-text .contact .chat{
+    background-color: #118a3e;
+    margin-left: 10px;
+}
+.house-target img:nth-child(1){
+    width: 20%;
+}
+.service-section{
+    margin: 20px 0 0 0;
+}
+.service-section .service-text{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-section .service-text h1{
+    text-align: center;
+    margin: 20px;
+    padding: 10px 0 20px 0;
+    width: 40%;
+    
+}
+.service-div{
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+
+}
+.service{
+    padding: 10px;
+    background-color: rgb(232, 235, 245);
+    width: 26%;
+    border-radius: 20px;
+    height: 40vh;
+}
+.service-section .service-div .service span:nth-of-type(1){
+    background-color: #fff;
+    padding: 10px;
+    border-radius:50% ;
+    font-weight: 600;
+    /* border: solid; */
+}
+.service p{
+    font-weight: 800;
+    padding: 20px 0px;
+}
+.cleaning-section{
+    margin: 50px 0 0 0px;
+    /* background-color: rgb(232, 235, 245); */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 85.7%;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+.book-service{
+    width: 50%;
+    
+}
+.book-service img{
+    border-radius: 20px;
+}
+.book-text{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book-text a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #118a3e;
+    color: #fff;
+    width: 30%;
+    padding: 9px 30px;
+    /* margin: 40px; */
+    border-radius: 20px;
+    /* border: solid; */
+}
+.why-choose-us{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(232, 235, 245);
+    height: 50vh;
+    width: 100%;
+}
+.why-choose-us .tab-text {
+    margin: 20px 0;
+}
+.why-choose-us .tab-text h1{
+    text-align: center;
+}
+.tab-section{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+}
+.tabs{
+    width: 20%;
+    height: 25vh;
+    background-color: #fff;
+    /* box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5); */
+}
+.tabs span:nth-of-type(1){
+    color: #022a68;
+    font-size: 20px;
+    
+}
+.tabs p{
+    padding: 20px 0px 5px 0 ;
+}
+.how-it-works{
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+.how-it-works .steps{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+    min-height: auto;
+}
+
+.steps .step-content{
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    /* background-color: rgb(232, 235, 245); */
+    border-radius: 20px;
+    overflow: hidden;
+}
+.step-content h2:nth-of-type(1){
+    background-color: #118a3e;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    width: 17%;
+    
+}
+.step-content p{
+    padding: 5px  0;
+}
+.step-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px;
+    /* width: 80%; */
+}
+.step-content:nth-of-type(2) img{
+    margin-top: 15px;
+}
+.step-content:nth-of-type(3) img{
+    margin-top: 15px;
+}
+
+.customer-review{
+    background-color: #f7f6f9;
+    width: 100%;
+    /* height: 4rem; */
+    padding: 20px 0 40px 0;
+    margin-top: 40px;
+}
+.customer-review h1{
+    margin: 20px 0 40px 0 ;
+    text-align: center;
+}
+
+.review-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.reviews{
+    height: 250px;
+    width: 24%;
+    /* overflow: hidden; */
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 40px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.review__profile{
+    height: 50px;
+    position: absolute;
+    top: -20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.review__name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px  10px 0;
+}
+
+.review__name i{
+    font-size: 25px;
+}
+
+.instagram-logo{
+    background: linear-gradient(45deg, #f9ce34 0%, #ee2a7b 50%, #6228d7 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.facebook-logo{
+    color: #0064e0;
+}
+
+.review__rating{
+    font-size: 10px;
+    color: rgb(236, 186, 20);
+}
+
+.review__quote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 20px;
+
+}
+
+.review__quote p{
+    border-bottom: rgb(199, 193, 193) solid;
+    width: 60%;
+}
+
+
+
+
+
+
+
+.faq-section{
+    max-width: 800px;
+    margin: 60px auto;
+    background: #022a68;
+    padding: 40px;
+    border-radius: 16px;
+    color: #fff;
+
+}
+.faq-section h2{
+    text-align: center;
+    color: #118a3e;
+    margin-bottom: 25px;
+
+}
+details {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-left: 5px solid #118a3e;
+    transition: background 0.7s ease;
+}
+summary {
+    font-weight: 600;
+    cursor: pointer;
+}
